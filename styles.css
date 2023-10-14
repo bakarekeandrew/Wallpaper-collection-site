@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 2;
+    /* background: pink transparent; */
+    /* background-image: url(image.webp);  */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  
+}
+.nav {
+    background-color: lightcoral;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: semi-bold;
+    /* top: 0; */
+    position: fixed;
+    width: 100%;
+     
+}
+
+.nav :hover {
+    color:beige;
+    font-weight: bold;
+}
+.nav ul {
+    display: flex; 
+    
+}
+
+.nav ul ul {
+    padding-left: 100px;
+    
+}
+.buttons{
+    display: flex;
+    padding-right: 20px;
+    padding-top: 11px;
+}
+
+
+h1 {
+    font-size: xx-large;
+    color: aqua;
+}
+.container {
+    padding-top: 50px;
+    display: flex;
+    justify-content:space-between;
+}
+
+    
+
+.login {
+    border: 2px solid pink;;
+    font-size: 20px;
+    background-color: red; 
+    border-radius: 10px;
+    border: 1px solid red;
+    cursor: pointer;
+    transition: .4s;
+}
+.signup {
+    font-size: 20px;
+    border-color: pink;
+    background-color: red; 
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 1px solid red;
+    cursor: pointer;
+    transition: .3s;
+}
+.login:hover {
+    color: pink;
+    background-color: transparent;
+    
+}
+.signup:hover {
+    color:white;
+    background-color: transparent;
+  
+}
+
+.image-content {
+    padding-top: 60px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 75px;
+    padding-right: 75px;
+    /* width: 300px; */
+}
+.graph {
+   border-radius: 20px;
+   border: 5px solid white;
+   width: 300px;
+   height: 300px;
+   transition: .4s;
+   box-shadow: 0 5px 15px rgba(0,0,0,1);
+   /* cursor: pointer; */
+}
+.graph:hover {
+    transform: scale(1.1);
+}
+
+
+
+
